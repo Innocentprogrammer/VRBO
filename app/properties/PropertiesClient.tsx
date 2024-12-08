@@ -6,9 +6,10 @@ import Container from "../components/Container";
 import Heading from "../components/Heading";
 // import toast from 'react-toastify'
 
-import { SafeUser } from "../types";
+import { SafeListing, SafeUser } from "../types";
 import { useCallback, useState } from "react";
 import ListingCard from "../components/listings/ListingCard";
+import toast from "react-hot-toast";
 
 interface PropertiesClientProps {
     listings: SafeListing[];

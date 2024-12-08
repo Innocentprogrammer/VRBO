@@ -3,21 +3,15 @@
 import { TbBeach, TbPool } from "react-icons/tb";
 import Container from "../Container";
 import { 
-    GiBarn, 
-    GiBoatFishing, 
-    GiCastle, 
-    GiCaveEntrance, 
+    GiBoatFishing,  
     GiDesert, 
     GiForestCamp, 
     GiIsland, 
     GiMountains, 
-    GiRiver, 
-    GiWaterfall, 
-    GiWindmill } from "react-icons/gi";
+    GiRiver, } from "react-icons/gi";
 import { MdOutlineVilla } from "react-icons/md";
 import CategoryBox from "../CategoryBox";
 import { usePathname, useSearchParams } from "next/navigation";
-import { FaSkiing } from "react-icons/fa";
 import { BsSnow } from "react-icons/bs";
 import { IoDiamond } from "react-icons/io5";
 
@@ -26,11 +20,6 @@ export const categories = [
         label:'Beach',
         icon : TbBeach,
         description: 'This property is close to the beach'
-    },
-    {
-        label:'Windmills',
-        icon : GiWindmill,
-        description: 'This property has windmills'
     },
     {
         label:'Modern',
@@ -58,39 +47,19 @@ export const categories = [
         description: 'This property is close to a lake'
     },
     {
-        label:'Skiing',
-        icon : FaSkiing,
-        description: 'This property has skiing activities'
-    },
-    {
-        label:'Castles',
-        icon : GiCastle,
-        description: 'This property is in a castle'
-    },
-    {
         label:'Camping',
         icon : GiForestCamp,
         description: 'This property has camping activities'
     },
     {
-        label:'Arctic',
+        label:'Snow',
         icon : BsSnow,
         description: 'This property has camping activitites'
-    },
-    {
-        label:'Cave',
-        icon : GiCaveEntrance,
-        description: 'This property is has camping activities'
     },
     {
         label:'Desert',
         icon : GiDesert,
         description: 'This property is in the desert'
-    },
-    {
-        label:'Barns',
-        icon : GiBarn,
-        description: 'This property is in the barn'
     },
     {
         label:'Lux',
@@ -101,11 +70,6 @@ export const categories = [
         label:'River',
         icon : GiRiver,
         description: 'This property is close to river'
-    },
-    {
-        label:'Water Fall',
-        icon : GiWaterfall,
-        description: 'This property has camping activities'
     },
 
 ]

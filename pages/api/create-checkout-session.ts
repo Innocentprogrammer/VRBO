@@ -18,7 +18,7 @@ export default async function handler(
             price_data: {
               currency: 'usd',
               product_data: {
-                name: 'Sample Product',
+                name: 'Hotel',
               },
               unit_amount: 2000, 
             },

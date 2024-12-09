@@ -85,6 +85,9 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
             </div>
             <hr />
             <Map center={coordinates} />
+            <hr />
+            <h1>Reviews</h1>
+            <textarea className=""></textarea>
         </div>
     );
 }

@@ -1,3 +1,12 @@
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+
 export default function Cancel() {
-    return <h1>Payment Canceled!</h1>;
+  const router = useRouter();
+  useEffect(() => {
+    alert("Your payment was canceled!");
+    router.push("trips");
+  }, []); 
+
+  return <h1></h1>; 
 }

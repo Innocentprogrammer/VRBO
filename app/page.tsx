@@ -10,28 +10,28 @@ import { useRouter } from 'next/navigation';
  const Home=()=> {
 
   const exclusives = [
-    { src: "/images/dubai.png", title: "Switzerland", price: "$250" },
-    { src: "/images/dubai.png", title: "Australia", price: "$250" },
-    { src: "/images/dubai.png", title: "London", price: "$250" },
-    { src: "/images/dubai.png", title: "London", price: "$250" },
-    { src: "/images/dubai.png", title: "Switzerland", price: "$250" },
-    { src: "/images/dubai.png", title: "Australia", price: "$250" },
-    { src: "/images/dubai.png", title: "London", price: "$250" },
-    { src: "/images/dubai.png", title: "Switzerland", price: "$250" },
+    { src: "/images/image-1.jpeg", title: "Manali" },
+    { src: "/images/image-2.jpeg", title: "Goa" },
+    { src: "/images/image-3.jpeg", title: "Nainital" },
+    { src: "/images/image-4.jpeg", title: "Somnath Temple" },
+    { src: "/images/image-5.jpeg", title: "Golden Temple" },
+    { src: "/images/image-6.jpeg", title: "Lotus Temple" },
+    { src: "/images/image-7.jpeg", title: "Hawa Mahal" },
+    { src: "/images/image-8.jpeg", title: "Tamil Nadu" },
     // Add more items as needed
   ];
 
   const trending = [
-    { src: "/images/dubai.png", title: "Dubai" },
-    { src: "/images/new-york.png", title: "New York" },
-    { src: "/images/paris.png", title: "Paris" },
+    { src: "/images/hyderabad.png", title: "Hyderabad" },
+    { src: "/images/gujarat.jpeg", title: "Gujarat" },
+    { src: "/images/jaga.png", title: "Odissa" },
     { src: "/images/new-delhi.png", title: "New Delhi" },
   ];
 
   const stories = [
-    { src: "/images/story-1.png", description: "Popular European countries with a budget of just $10,000" },
-    { src: "/images/story-2.png", description: "Traveled more than 100 countries in less than a year" },
-    { src: "/images/story-3.png", description: "Best experience you get while travelling to Thailand" },
+    { src: "/images/story-1.png", description: "Popular Indian Cities under budget of just ₹10,000" },
+    { src: "/images/story-2.png", description: "Traveled more than 100 cities in India in less than a year" },
+    { src: "/images/story-3.png", description: "Best experience you get while travelling to Lakshadweep" },
   ];
 
   const router=useRouter();

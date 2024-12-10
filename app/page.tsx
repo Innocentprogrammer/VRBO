@@ -88,7 +88,6 @@ import { useRouter } from 'next/navigation';
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white  ">
                   <h3 className="text-xl font-semibold">{item.title}</h3>
-                  <p className="text-lg">{item.price}</p>
                 </div>
               </div>
             ))}

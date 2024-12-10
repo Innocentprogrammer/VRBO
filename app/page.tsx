@@ -181,6 +181,16 @@ import { useRouter } from 'next/navigation';
           <a href="#" className="text-gray-500 text-2xl"><i className='bx bxl-instagram'></i></a>
         </div>
         <hr className="my-5 border-gray-300" />
+        <div className='flex justify-center items-center'> 
+          <Image
+              src={"/images/logo.jpeg"}
+              alt={"logo"}
+              width={130}
+              height={130}
+              className="rounded-lg"
+          />
+          </div>
+       
         <p className="text-gray-500">Copyright &copy; 2024, VRBO(VACATION RENTAL BY OWNERS)</p>
       </footer>
 
